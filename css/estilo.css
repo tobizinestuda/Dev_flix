@@ -1,0 +1,449 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+*{
+	margin: 0;
+	padding: 0;
+}
+
+// <uniquifier>: Use a unique and descriptive class name
+// <weight>: Use a value from 100 to 900
+
+.inter-<uniquifier> {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+
+body{
+	background-color: #000000;
+	color: white;
+}
+
+.cabecario{
+	width: 100%;
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+.logo{
+	display: inline-block;
+}
+.container{
+	display: flex;
+	flex-direction: column;
+}
+.topo{
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	position: relative;
+	height: 800px;
+}
+
+.pagamento{
+	display: flex;
+	flex-direction: column;
+	margin-left: 20px;
+	text-align: center;
+	z-index: 2;
+}
+
+.devexpert{
+	order: 1;
+}
+
+.slogan{
+	text-align:center;
+	font-family: "Inter";
+	font-size: 28px;
+	text-align: center;
+	order: 1;
+}
+.ass12{
+	margin-top: 30px;
+	background-color: rgb(0, 151, 72);
+	text-align: center;
+	width: 512px;
+	height: 56px;
+	display: grid;
+    place-items: center;
+    border-radius: 8px;
+    margin-left: auto;
+    margin-right: auto;
+    order: 3;
+}
+.texto-ass{
+	font-family: "Inter";
+}
+
+.ass{
+	border: 2px solid white;
+	text-align: center;
+	width: 512px;
+	height: 56px;
+	display: grid;
+    place-items: center;
+    border-radius: 8px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    order: 4;
+}
+.op{
+	color: rgb(192, 192, 192);
+	font-family: "Inter";
+	order: 5;
+}
+
+.devs{
+	z-index: 1;
+	width: 820px;
+
+}
+
+.div-devs{
+	margin-left: -140px;
+	z-index: 1;
+}
+.note{
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	background-color: rgb(34, 38, 52);
+	width: 100%;
+	height: 800px;
+}
+
+.image-note{
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: auto;
+	margin-bottom: auto;
+}
+
+.textos{
+	margin-top: 350px;
+}
+
+.textos-curso{
+	margin-top: 350px;
+}
+
+.titulo{
+	font-family: "Inter";
+}
+.texto{
+	font-family: "Inter";
+	font-size: 16px;
+	text-align: justify-all;
+	order: ;
+}
+
+.combo{
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	width: 100%;
+	height: 800px;
+}
+
+.texto-combo{
+	font-family: "Inter";
+	text-align: center;
+	font-size: 16px;
+}
+
+.textos-combo{
+	margin-top: 350px;
+	margin-left: 100px;
+}
+
+.ass-combo{
+	margin-top: 42px;
+	background-color: rgb(0, 151, 72);
+	text-align: center;
+	width: 512px;
+	height: 56px;
+	display: grid;
+    place-items: center;
+    border-radius: 8px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.images-combo{
+	margin-top: auto;
+	margin-bottom: auto;
+	margin-left: 50px;
+}
+
+.cursos{
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	background-color: rgb(34, 38, 52);
+	width: 100%;
+	height: 800px;
+}
+
+.imagem-curso{
+	margin-top: auto;
+	margin-bottom: auto;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.aparelho{
+	text-align: center;
+	width: 100%;
+	height: 800px;
+	margin-top: auto;
+	margin-bottom: auto;
+}
+
+.titulo-aparelho{
+	margin-top: 300px;
+	font-family: "Inter";
+}
+
+
+.nome-aparelho{
+	font-family: "Inter";
+}
+
+.div-aparelhos{
+	text-align: center;
+	margin-top: 100px;
+}
+.div-aparelhos img{
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: auto;
+	margin-bottom: auto;
+}
+
+.todos-aparelhos{
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+}
+
+.login{
+	background-color: rgb(34, 38, 52);
+	width: 100%;
+	height: 800px;
+}
+
+.login h1{
+	font-family: "Inter";
+	text-align: center;
+	margin-top: 100px;
+}
+
+.form{
+	display: flex;
+	flex-direction: column;
+	width: 500px;
+	margin-left: auto;
+	margin-right: auto;
+	align-items: center;
+}
+
+.name {
+    width: 705px;
+    height: 57px;
+    font-family: "Inter";
+    border-radius: 16px;
+    text-align: center;
+    font-size: 18px;
+    background-color: #2E3447;
+    border: 1px solid #fff;
+    color: #fff;
+    margin-top: 20px;
+}
+
+.e-mail {
+    width: 705px;
+    height: 57px;
+    font-family: "Inter";
+    border-radius: 16px;
+    text-align: center;
+    font-size: 18px;
+    background-color: #2E3447;
+    border: 1px solid #fff;
+    color: #fff;
+    margin-top: 20px;
+}
+
+.mensagem {
+    width: 705px;
+    height: 307px;
+    font-family: "Inter";
+    border-radius: 16px;
+    text-align: center;
+    font-size: 18px;
+    background-color: #2E3447;
+    border: 1px solid #fff;
+    color: #fff;
+    margin-top: 20px;
+}
+
+.enviar{
+	width: 512px;
+	height: 56px;
+	border-radius: 8px;
+	background-color: rgb(0, 151, 72);
+	font-family: "Inter";
+	color: white;
+	font-size: 15px;
+	margin-top: 20px;
+}
+
+.rodape{
+	width: 100%;
+	height: 100%;
+}
+
+.imagem-rodape{
+	text-align: center;
+	margin-top: 100px;
+}
+
+.config{
+	margin-top: 60px;
+	display: grid;
+	grid-template-columns: repeat(7, 1fr);
+	justify-items: center;
+  	align-items: center;
+}
+
+.texto-config{
+	font-family: "Inter";
+	font-size: 15px;
+}
+.dados{
+	margin-left: auto;
+	margin-right: auto;
+	justify-items: center;
+}
+.data{
+	text-align: center;
+	color: rgb(192, 192, 192);
+	font-family: "Inter";
+	margin-top: 60px;
+}
+
+.endereco{
+	text-align: center;
+	color: rgb(192, 192, 192);
+	font-family: "Inter";
+	margin-top: 60px;
+}
+
+@media (max-width: 600px){
+	*{
+		margin: 0;
+		padding: 0;
+	}
+
+	body{
+		background-color: #000000;
+		color: white;
+	}
+
+	.topo{
+		display: flex;
+		flex-direction: column;
+	}
+
+	.devs{
+		display: none;
+	}
+
+	.slogan{
+		order: 2;
+	}
+
+	.devexpert{
+		order: 1;
+	}
+	.note{
+		display: flex;
+		flex-direction: column;
+		background-color: rgb(34, 38, 52);
+		text-align: center;
+		width: 100%;
+		height: 950px;
+	}
+	.image-note{
+		margin-left: -20px;
+		width: 271px;
+		height: 125px;
+		margin-top: 280px;
+		margin-bottom: 5px;
+	}
+	.titulo{
+		margin-top: auto;
+		margin-bottom: auto;
+	}
+	.combo{
+		display: flex;
+		flex-direction: column;
+		width: 100%;
+	}
+	.textos-combo{
+		margin-top: -30px;
+		width: 400px;
+		order: 2;
+		margin-bottom: 30px;
+	}
+	.ass-combo{
+		width: 300px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	.images-combo{
+		margin-left: auto;
+		margin-right: auto;
+		order: 1;
+	}
+
+	.cursos{
+		display: flex;
+		flex-direction: column;
+	}
+	.textos-curso{
+		text-align: center;
+		margin-top: -30px;
+		margin-bottom: 200px;
+
+	}
+
+	.todos-aparelhos{
+		display: flex;
+		flex-direction: column;
+	}
+
+	.aparelho{
+		height: 1500px;
+	}
+
+	.name{
+		width: 500px;
+	}
+	.e-mail{
+		width: 500px;
+	}
+	.mensagem{
+		width: 500px;
+	}
+	.enviar{
+		width: 500px;
+	}
+
+	.config{
+		display: flex;
+		flex-direction: column;
+	}
+
+	.texto-config{
+		margin-bottom: 20px;
+	}
+}
